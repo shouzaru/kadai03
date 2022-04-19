@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+}
+
+#wrapper{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+#title{
+    font-family: 'Train One', cursive;
+}
+
+
+#document{
+    /* display: flex; */
+    margin: 50px;
+    padding-top: 250px;
+}
+
+dt,dd{
+    font-family: 'Train One', cursive;
+    font-size: 22px;
+}
+
+#btn{
+    margin-bottom: 5px;
+}
+
+
+#document dl{
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#document dl dt{
+    width: 200px;
+}
+
+#document dl dd{
+    width: 100px;
+}
+
+#GO{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+}
+
+#GO #GAMEOVER{
+    font-size: 100px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+}
